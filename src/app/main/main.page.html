@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="m1"></ion-menu-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://patiodeautos.com/wp-content/uploads/2019/04/descarga_2-1093x480.jpg" />
+    <ion-card-header>
+      <ion-card-title>Automóvil</ion-card-title>
+      <ion-card-subtitle>Etimología</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Vehículo de motor que sirve, normalmente, para el transporte de personas o cosas o de ambas a la vez o para la tracción de otros vehículos con aquel fin.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="ion-text-center">
+    <ion-col>
+      <ion-button fill="outline" color="dark" [routerLink]="['/product-list']">
+        Autos
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  
+  
+</ion-content>
